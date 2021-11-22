@@ -19,7 +19,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     />
     <title>Expense Tracker</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
+  </head>dd
   <body>
     <h1 class="my-5">Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome <h2>Expense Tracker</h2>.</h1>
     <div class="container">
@@ -58,7 +58,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
               <input type="number" id="amount" placeholder="Enter amount..."> 
           </div>
           <button style="color: #000;" class="btn">All transaction</button>
-          <a style="text-align: center;text-decoration: none; color: #000;" href="logout.php" class="btn">Sign Out of Your Account</a>
+          <a style="text-align: center;text-decoration: none; color: #000;" href="logout.php" class="btn">Sign Out</a>
       </form>
     </div>
     <!-- JavaYscript Project  -->
